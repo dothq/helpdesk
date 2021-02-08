@@ -1,4 +1,4 @@
-# Dot HQ Help Desk
+# 🤝 Dot HQ Help Desk
 Welcome to the Dot HQ Support repository. 
 
 ## For developers
