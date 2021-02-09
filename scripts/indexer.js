@@ -6,7 +6,7 @@
 const fs = require('fs')
 const path = require('path')
 
-const CDN = ''
+const CDN = 'cdn.statically.io/gh/dothq/helpdesk/gh-pages/'
 const REPO_LOCATION = path.join(__dirname, '..')
 const OUT = path.join(REPO_LOCATION, 'CDN')
 const BLACKLIST = ['scripts']
