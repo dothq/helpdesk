@@ -91,11 +91,11 @@ fs.writeFileSync(
   path.join(OUT, 'index.json'),
   JSON.stringify(
     index.map((product) => ({
-      entries: product.entries.map((entry) => ({
-        files: entry.files.map((file) => file.cdn),
-        ...entry,
-      })),
       ...product,
+      entries: product.entries.map((entry) => ({
+        ...entry,
+        files: entry.files.map((file) => file.cdn),
+      })),
     }))
   )
 )
